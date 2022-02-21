@@ -105,6 +105,8 @@ if POSTGRES_READY and DB_IS_AVAIL:
         }
     }
 print(DATABASES)
+print(POSTGRES_PORT)
+print(POSTGRES_USER)
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
 
